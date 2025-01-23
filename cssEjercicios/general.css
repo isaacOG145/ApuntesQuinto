@@ -1,0 +1,79 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+[role="banner"]{
+    font-weight: lighter;
+}
+
+p::first-letter{
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+p::first-line{
+    font-weight: bold;
+}
+
+
+.hr{
+    border: 0.5 solid #dadada;
+    border-radius: 8px;
+}
+
+table{
+    border: 1px solid #000;
+    width: 100%;
+}
+
+button{
+    padding: 8px 16px;
+    background-color: transparent;
+    border-radius: 8px;
+    border: none;
+}
+
+button:hover{
+    background-color: #7b7b7b;
+    transition: 0.25s;
+}
+
+.primary{
+    background-color: #3278b6;
+    color: #fff;
+}
+
+.success{
+    background-color: #3baa31;
+    color: #fff;
+}
+
+.danger{
+    background-color: #c52d19;
+}
+
+.primary:hover{
+    background-color: #000275;
+}
+
+.success:hover{
+    background-color: #125c03;
+    
+}
+
+.danger:hover{
+    background-color: #861616;
+}
+
+.primary:focus{
+    box-shadow: 0px 0px 0px 5px rgba(50, 120, 182, 0.25) ;
+}
+
+.success:focus{
+    box-shadow: 0px 0px 0px 5px rgba(93, 219, 131, 0.25);
+    
+}
+
+.danger:focus{
+    box-shadow: 0px 0px 0px 5px rgba(216, 49, 49, 0.25);
+}
