@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="e">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,7 +20,10 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Página principal</a>
+                    <a class="nav-link active" aria-current="page" href="./index.html">Página principal</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./view/articles.html">Gestion de articulos</a>
                   </li>
                   
                   
@@ -30,17 +33,23 @@
               </div>
             </div>
           </nav>
-
+          <!--Zpona principal-->
           <section  class="mx-5 mt-4">
-            <h3>Vista general del articulo</h3>
+            <div class="d-flex align-item-center">
+              <h3 class="mb-0">Vista general del articulo</h3>
+              <button type="button" class="ms-auto btn btn-outline-success" data-bs-target="#createModal" data-bs-toggle="modal">Crear articulo nuevo</button>
+            </div>
             <hr>
 
             <div class="row row-cols-4 g-3">
+              <!--Articulos-->
                 <article class="col">
                     <div class="card">
-                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRciSiLitrW-W_1HYIw5jvwS2afMsTK2465gg&s" style="width: 90%;" class="card-img-top mx-auto mt-3" alt="...">
+                        
                         <div class="card-body">
-
+                            <div style=" height: 250px;" class="text-center">
+                              <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRciSiLitrW-W_1HYIw5jvwS2afMsTK2465gg&s"  style="width: 100%; height: 100%; object-fit: cover;"  alt="...">
+                            </div>
                             <p>
                                 <span class="fs-2">$5 </span> MXN
                             </p>
@@ -69,9 +78,92 @@
                         </div>
                     </div>
                 </article>
+
+                <article class="col">
+                  <div class="card">
+                      
+                      <div class="card-body">
+                          <div style=" height: 250px;" class="text-center">
+                            <img src="https://play-lh.googleusercontent.com/NIDf6sr4YmcHyh4RmkqRKiqa0woAazAyfKqsCjtv5zZwpWUsZdk29kNfigAfsHBkOCQ"  style="width: 100%; height: 100%; object-fit: cover;"  alt="...">
+                          </div>
+                          <p>
+                              <span class="fs-2">$10 </span> MXN
+                          </p>
+                          
+                          <div class="mb-2">
+                              <span class="badge bg-dark">Series</span>
+                              <span class="badge bg-dark">Cine</span>
+                              <span class="badge bg-dark">Aliens</span>
+                          </div>
+                          
+                          <h5>Ben 10 Alien force</h5>
+
+                          <div class="mb-4">
+                              <i class="bi bi-star text-warning fs-3"></i>
+                              <i class="bi bi-star text-warning fs-3"></i>
+                              <i class="bi bi-star text-warning fs-3"></i>
+                              <i class="bi bi-star text-warning fs-3"></i>
+                              <i class="bi bi-star text-warning fs-3"></i>
+                              <a href="" class="ms-2">890 comentarios  <i class="bi bi-chevron-down"></i></a>
+                          </div>
+
+                          <div>
+                              <button type="button" class="btn btn-outline-primary col-12 mb-2">Agregar al carrito</button>
+                              <button type="button" class="btn btn-primary col-12">Comprar ahora</button>
+                          </div>
+                      </div>
+                  </div>
+              </article>
             </div>
 
           </section>
+
+          <!-- Modales -->
+
+          
+
+        <!-- Modal -->
+        <div class="modal fade" id="createModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+
+          <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h1 class="modal-title fs-5" id="exampleModalLabel">Modal title</h1>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body">
+                
+
+                  <h4>Crear nuevo articulo</h4>
+                  <hr>
+                  <form novalidate class="row g-3" data-bs-backdrop="static">
+
+                    <div class="col-12">
+                      <label for=""><small>Nombre del articulo <span class="text-danger">*</span></small></label>
+                      <input type="text" name="" id="" class="form-control" autocomplete="off" required>
+                    </div>
+                    
+                    <div class="col-12">
+                      <label for=""><small>Precio <span class="text-danger">*</span></small></label>
+                      <input type="number" name="" id="" class="form-control" autocomplete="off" required>
+                    </div>
+
+                    <div class="col-12">
+                      <label for=""><small>Url de la imagen <span class="text-danger">*</span></small></label>
+                      <input type="text" name="" id="" class="form-control" autocomplete="off" required>
+                    </div>
+
+                    <div class="col-12 text-end">
+                      <button type="reset" class="btn btn-outline-secondary" data-bs-dismiss="modal">Cancelar</button>
+                      <button type="button" class="btn btn-outline-success">Registrar</button>
+
+                    </div>
+
+                  </form>
+              </div>
+            </div>
+          </div>
+        </div>
 
           
 

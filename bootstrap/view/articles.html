@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La tienda del mapache</title>
+    <link rel="stylesheet" href="../css/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+</head>
+<body style="overflow: hidden;">
+    
+    <main style="width: 100vw; height: 100vh; overflow-x: hidden;">
+
+        <nav class="navbar navbar-expand-lg bg-body-tertiary">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">La tienda del mapache</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Página principal</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./articles.html">Gestion de articulos</a>
+                  </li>
+                  
+                  
+                    </ul>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <!--Zpona principal-->
+          <section  class="mx-5 mt-4">
+            <div class="d-flex align-item-center">
+                <h3 class="mb-0">Vista general de articulos</h3>
+              </div>
+            <hr>
+
+            <div class="row row-cols-4 g-3">
+              <!--Articulos-->
+                <article class="col">
+                    <div class="card">
+                        
+                        <div class="card-body">
+                            
+                            <div class="d-flex align-items-start">
+                                <h5>Nintendo switch 2</h5>
+                                <span class="badge ms-auto bg-dark">En stock: 50</span>
+                            </div>
+
+                            <div class="col-12 text-end">
+                                <button type="button" class="btn btn-danger"><i class="bi bi-trash"></i></button>
+                                <button type="button" class="btn btn-primary"><i class="bi bi-pencil"></i></button>
+                                <button type="button" class="btn btn-primary"><i class="bi bi-bookmark"></i></button>
+                                <button type="button" class="btn btn-primary"><i class="bi bi-plus-lg"></i></button>
+                            </div>
+                        
+                        </div>
+                    </div>
+                </article>
+
+          </section>
+        
+
+    </main>
+
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
