@@ -1,0 +1,41 @@
+[
+    {
+        "name": "Nintendo switch 2",
+        "price": 10500,
+        "rating": 3,
+        "comments": 300,
+        "categories": [
+            "consolas",
+            "electronica",
+            "videojuegos"
+        ],
+        "imgURL": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_400/ncom/en_US/articles/2025/nintendo-switch-2-to-be-released-in-2025/1920x1080_WN_PR01162025"
+    
+    },
+    {
+        "name": "Nintendo OLED",
+        "price": 10000,
+        "rating": 4,
+        "comments": 310,
+        "categories": [
+            "consolas",
+            "electronica",
+            "videojuegos"
+        ],
+        "imgURL": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_400/ncom/en_US/products/hardware/nintendo-switch-oled-model-white-set/115461-switch-oled-white-console-front-1200x675"
+    },
+    {
+        "name": "Play station 5",
+        "price": 12000,
+        "rating": 5,
+        "comments":500,
+        "categories": [
+            "consolas",
+            "electronica",
+            "videojuegos"
+        ],
+        "imgURL": "https://i5.walmartimages.com.mx/mg/gm/1p/images/product-images/img_large/00071171957944l.jpg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+    
+    }
+    
+]
