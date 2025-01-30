@@ -4,12 +4,13 @@
         "price": 10500,
         "rating": 3,
         "comments": 300,
+        "stock": 2000,
         "categories": [
             "consolas",
             "electronica",
             "videojuegos"
         ],
-        "imgURL": "https://assets.nintendo.com/image/upload/f_auto/q_auto/dpr_1.5/c_scale,w_400/ncom/en_US/articles/2025/nintendo-switch-2-to-be-released-in-2025/1920x1080_WN_PR01162025"
+        "imgURL": "https://es.gizmodo.com/app/uploads/2024/02/7312e5896078828b5a39e5c89e24f4ae.jpg"
     
     },
     {
@@ -17,18 +18,20 @@
         "price": 10000,
         "rating": 4,
         "comments": 310,
+        "stock": 2600,
         "categories": [
             "consolas",
             "electronica",
             "videojuegos"
         ],
-        "imgURL": "https://assets.nintendo.com/image/upload/ar_16:9,b_auto:border,c_lpad/b_white/f_auto/q_auto/dpr_1.5/c_scale,w_400/ncom/en_US/products/hardware/nintendo-switch-oled-model-white-set/115461-switch-oled-white-console-front-1200x675"
+        "imgURL": "https://shop365mx.com/cdn/shop/files/D3495A43-2277-4178-95BE-C9CF841F37AD.jpg?v=1720454627&width=1445"
     },
     {
         "name": "Play station 5",
         "price": 12000,
         "rating": 5,
         "comments":500,
+        "stock": 1000,
         "categories": [
             "consolas",
             "electronica",
